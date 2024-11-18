@@ -57,7 +57,7 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1)}
+          variants={iconVariants(2.75)}
           initial="initial"
           animate="animate"
           className="roundex-2xl rounded-xl border-4 border-neutral-800 p-4"
@@ -65,7 +65,7 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-400" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="roundex-2xl rounded-xl border-4 border-neutral-800 p-4"

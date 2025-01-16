@@ -1,5 +1,6 @@
 import ExploreInn from "../assets/projects/ExploreInn.png";
 import MovieMania from "../assets/projects/MovieMania.png";
+import QuickBazaar from "../assets/projects/QuickBazaarPhoto.png";
 
 export const HERO_CONTENT = `Hi, I'm Karan Singh Bisht , a results-driven MERN Stack Developer with a deep passion for creating cutting-edge web applications. My expertise spans both front-end and back-end development, allowing me to architect and deliver end-to-end solutions that drive business growth and user engagement.`;
 
@@ -13,6 +14,22 @@ I thrive on turning complex problems into simple, elegant solutions by leveragin
 export const EXPERIENCES = [{}];
 
 export const PROJECTS = [
+  {
+    title: "QuickBazaar",
+    image: QuickBazaar,
+    description:
+      " QuickBazaar is an innovative e-commerce platform designed to offer users a seamless shopping experience. Built with the latest technologies, it connects buyers and sellers in real-time for quick and hassle-free transactions.",
+    technologies: [
+      "React",
+      "React-Redux",
+      "Node.js",
+      "Express.js",
+      "Github",
+      "JWT",
+      "MongoDB",
+    ],
+    link: "https://statuesque-heliotrope-0b129d.netlify.app/",
+  },
   {
     title: "ExploreInn",
     image: ExploreInn,

@@ -13,10 +13,16 @@ const Navbar = () => {
         <img className="mx-2 w-10" src={karanLogo} alt="logo" />
       </div>
       <div className="hover:cursor-pointer z-50 m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href={SOCIALS.linkedin ? SOCIALS.linkedin : "#"}>
+        <a
+          className="hover:text-purple-400"
+          href={SOCIALS.linkedin ? SOCIALS.linkedin : "#"}
+        >
           {SOCIALS.linkedin ? <FaLinkedin /> : ""}
         </a>
-        <a href={SOCIALS.github ? SOCIALS.github : "#"}>
+        <a
+          className="hover:text-purple-400"
+          href={SOCIALS.github ? SOCIALS.github : "#"}
+        >
           {SOCIALS.github ? <FaGithub /> : ""}
         </a>
         <a href={SOCIALS.instagram ? SOCIALS.instagram : "#"}>

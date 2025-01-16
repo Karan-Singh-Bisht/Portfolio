@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={karanLogo} alt="logo" />
       </div>
-      <div className="hover:cursor-pointer m-8 flex items-center justify-center gap-4 text-2xl">
+      <div className="hover:cursor-pointer z-50 m-8 flex items-center justify-center gap-4 text-2xl">
         <a href={SOCIALS.linkedin ? SOCIALS.linkedin : "#"}>
           {SOCIALS.linkedin ? <FaLinkedin /> : ""}
         </a>

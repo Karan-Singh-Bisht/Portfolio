@@ -20,7 +20,7 @@ const Projects = () => {
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="w-full lg:w-1/4 "
+              className="w-full lg:w-1/4 z-50"
             >
               <a href={project.link}>
                 <img
@@ -36,9 +36,12 @@ const Projects = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full max-w-xl lg:w-3/4 z-50"
             >
-              <a href={project.link} className="mb-2 font-semibold">
+              <a
+                href={project.link}
+                className="mb-2 cursor-pointer font-semibold"
+              >
                 {project.title}
               </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>

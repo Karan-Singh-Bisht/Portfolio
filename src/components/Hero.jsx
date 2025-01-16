@@ -2,6 +2,7 @@ import React from "react";
 import { HERO_CONTENT } from "../constants";
 import profilePic from "../assets/karan.jpeg";
 import { motion } from "framer-motion";
+import DecryptedText from "./TextAnimation/Decrypt";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -24,7 +25,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl"
             >
-              Karan Singh Bisht
+              <DecryptedText text={"Karan Singh Bisht"} />
             </motion.h1>
             <motion.span
               variants={container(0.5)}

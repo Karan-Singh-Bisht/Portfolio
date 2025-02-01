@@ -28,7 +28,7 @@ export const PROJECTS = [
       "JWT",
       "MongoDB",
     ],
-    link: "https://statuesque-heliotrope-0b129d.netlify.app/",
+    link: "https://bucolic-rugelach-8be688.netlify.app/",
   },
   {
     title: "ExploreInn",

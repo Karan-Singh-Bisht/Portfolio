@@ -22,7 +22,7 @@ const Projects = () => {
               transition={{ duration: 1, delay: 0.5 }}
               className="w-full lg:w-1/4 z-50"
             >
-              <a href={project.link}>
+              <a target="_blank" href={project.link}>
                 <img
                   src={project.image}
                   width={200}
@@ -39,20 +39,36 @@ const Projects = () => {
               className="w-full max-w-xl lg:w-3/4 z-50"
             >
               <a
+                target="_blank"
                 href={project.link}
                 className="mb-2 cursor-pointer font-semibold"
               >
                 {project.title}
               </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex gap-2 flex-wrap mb-2">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex gap-2">
+                {project?.video ? (
+                  <a href={project?.video} className="text-[#531C7F] ml-1">
+                    Video Link
+                  </a>
+                ) : (
+                  ""
+                )}
+                <a href={project?.link} className="text-[#531C7F] ml-1">
+                  Live Link
+                </a>
+              </div>
             </motion.div>
           </div>
         ))}

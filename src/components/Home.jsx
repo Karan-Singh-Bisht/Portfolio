@@ -6,6 +6,7 @@ import Technologies from "./Technologies";
 import Projects from "./Projects";
 import { Contact } from "./Contact";
 import BlobCursor from "./Animations/BlobCursor";
+import Experience from "./Experience";
 
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
             <Hero />
             <About />
             <Technologies />
-            {/* <Experience /> For Future use */}
+            <Experience />
             <Projects />
             <Contact />
           </div>

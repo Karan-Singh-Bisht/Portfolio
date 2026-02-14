@@ -1,4 +1,16 @@
-# 🚀 Karan Singh Bisht — Portfolio
+# 🚀 Karan Singh Bisht## 🛠️ Tech Stack
+
+| Category              | Technologies                                                               |
+| --------------------- | -------------------------------------------------------------------------- |
+| **Languages**         | JavaScript, TypeScript, HTML5, CSS3                                        |
+| **Frontend**          | React, Redux Toolkit, Tailwind CSS, shadcn/ui, Framer Motion, Sass        |
+| **Backend**           | Node.js, Express.js, Socket.IO, BullMQ                                    |
+| **Databases**         | MongoDB, Redis                                                             |
+| **DevOps & Cloud**    | Docker, Docker Compose, Kubernetes, Helm, NGINX, AWS EC2, AWS S3, GCP     |
+| **AI & Blockchain**   | Google Gemini API, Blockchain, AI-powered Workflows                        |
+| **Auth & Security**   | JWT, Cookies, Role-Based Access Control                                    |
+| **Tools**             | Git, GitHub, Vite, ESLint, PostCSS                                         |
+| **Portfolio Built With** | React 18, Vite, Tailwind CSS, Framer Motion, React Spring, React Icons |io
 
 A modern, animated personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. Showcases my projects, experience, skills, and contact information with smooth animations and a sleek dark-themed UI.
 
@@ -124,7 +136,3 @@ npm run preview
 - 🐙 **GitHub:** [github.com/Karan-Singh-Bisht](https://github.com/Karan-Singh-Bisht)
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).

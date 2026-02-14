@@ -38,7 +38,7 @@ const styles = {
 export default function DecryptedText({
   text,
   speed = 90,
-  maxIterations = 15,
+  maxIterations = 10,
   sequential = false,
   revealDirection = "start",
   useOriginalCharsOnly = false,
@@ -206,7 +206,7 @@ export default function DecryptedText({
 
     const observer = new IntersectionObserver(
       observerCallback,
-      observerOptions
+      observerOptions,
     );
     const currentRef = containerRef.current;
     if (currentRef) {

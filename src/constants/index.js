@@ -2,6 +2,7 @@ import ExploreInn from "../assets/projects/ExploreInn.png";
 import MovieMania from "../assets/projects/MovieMania.png";
 import QuickBazaar from "../assets/projects/QuickBazaarPhoto.png";
 import uberClone from "../assets/projects/uberClone.jpeg";
+import verify from "/verify.png";
 
 export const HERO_CONTENT = `Hi, I'm Karan Singh Bisht , a results-driven MERN Stack Developer with a deep passion for creating cutting-edge web applications. My expertise spans both front-end and back-end development, allowing me to architect and deliver end-to-end solutions that drive business growth and user engagement.`;
 
@@ -13,6 +14,46 @@ I thrive on turning complex problems into simple, elegant solutions by leveragin
 `;
 
 export const EXPERIENCES = [
+  {
+    year: "Jan 2026 - Present",
+    role: "Software Engineer",
+    company: "NDVTechsys",
+    description: [
+      "Engineered the full-stack NIA application, delivering a React + shadcn/ui + Typescript frontend optimized with lazy loading and caching to accelerate page rendering.",
+      "Developed Express services with Redis, reducing database queries by 50% and optimizing response times for frequent requests.",
+      "Introduced worker services using BullMQ for chat and background jobs, reducing database blocking time by 70% and improving system scalability to handle 5x concurrent requests.",
+      "Containerized the application using Docker Compose, published images to Docker Hub, and deployed on AWS EC2 with S3-backed static hosting, improving release reliability and environment reproducibility.",
+    ],
+    technologies: [
+      "React",
+      "Typescript",
+      "shadcn/ui",
+      "Express.js",
+      "Redis",
+      "BullMQ",
+      "Docker",
+      "Docker Compose",
+      "AWS EC2",
+      "AWS S3",
+    ],
+  },
+  {
+    year: "Jul 2025 - Dec 2025",
+    role: "Software Engineer",
+    company: "ModelSuite AI (Startup)",
+    description: [
+      "Built a dynamic portfolio builder enabling models to generate professional portfolios using customizable presets, media uploads, and structured profile data; improved shareability with agencies and reduced manual curation effort.",
+      "Improved dashboard performance, cutting load time from 3–3.5s to 500–800ms (~75%) using API batching, caching, and rendering optimization.",
+      "Implemented an AI-driven persona generation workflow using Google's Gemini API, increasing profile completeness and reducing manual edits.",
+    ],
+    technologies: [
+      "React",
+      "Node.js",
+      "Google Gemini API",
+      "API Optimization",
+      "Caching",
+    ],
+  },
   {
     year: "Apr 2025 -Jul 2025",
     role: "Full Stack Web Developer Intern",
@@ -63,18 +104,37 @@ export const PROJECTS = [
       "https://drive.google.com/file/d/1ZQ7OaFJm9eIHS8Mpko8q9WKSmZL5TlbM/view?usp=drive_link",
   },
   {
-    title: "QuickBazaar",
-    image: QuickBazaar,
+    title: "Verify - Authenticity Validator for Academia",
+    image: verify, // You'll need to add your image variable
     description:
-      " QuickBazaar is an innovative e-commerce platform designed to offer users a seamless shopping experience. Built with the latest technologies, it connects buyers and sellers in real-time for quick and hassle-free transactions.",
+      "Verify is an AI-powered blockchain-backed document authentication platform built to detect forged and tampered credentials. Developed for the ISRO hackathon where we achieved Top-5 placement. The platform enables secure role-based access control, university onboarding with controlled issuance workflows, and QR-code-based verification for instant validation of blockchain-anchored certificates and degree records.",
     technologies: [
       "React",
-      "React-Redux",
+      "Typescript",
+      "Redux",
+      "Blockchain",
+      "AI",
+      "QR Code",
+      "Github",
+    ],
+    link: "https://verify-v1.netlify.app/",
+  },
+  {
+    title: "QuickBazaar – Cloud-Native Microservices E-commerce Platform",
+    image: QuickBazaar, // Using your existing image variable
+    description:
+      "QuickBazaar is a cloud-native microservices-based e-commerce system with independent services for auth, user, cart, payment, rating, product and orders. The platform is orchestrated on Kubernetes using Helm charts with environment-specific configurations and rolling updates. Features secure inter-service communication via NGINX Ingress Controller and deploys MongoDB Community Edition with persistent storage for reliable data retention.",
+    technologies: [
+      "React",
+      "Redux",
       "Node.js",
       "Express.js",
-      "Github",
-      "JWT",
       "MongoDB",
+      "Kubernetes",
+      "Docker",
+      "Helm",
+      "NGINX",
+      "Microservices",
       "Github",
     ],
     link: "https://bucolic-rugelach-8be688.netlify.app/",

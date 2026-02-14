@@ -1,22 +1,130 @@
-# Karan Singh Bisht
+# 🚀 Karan Singh Bisht — Portfolio
 
-Hello, I'm Karan Singh Bisht , a results-driven MERN Stack Developer with a deep passion for creating cutting-edge web applications. My expertise spans both front-end and back-end development, allowing me to architect and deliver end-to-end solutions that drive business growth and user engagement.
+A modern, animated personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. Showcases my projects, experience, skills, and contact information with smooth animations and a sleek dark-themed UI.
 
-💻 Tech Stack:
+🔗 **Live Demo:** [karansinghbisht.netlify.app](https://karansinghbisht.netlify.app) _(update with your actual URL)_
 
-Front-end: HTML5, CSS3, JavaScript (React.js),Redux-Toolkit
-Back-end: Node JS, Express JS, JWT
-Database: MongoDB, MySQL
-Version Control: Git, Github
-CSS Framework: Tailwind CSS, Bootstrap
+---
 
-🛠️ Key Skills:
+## ✨ Features
 
-Responsive and intuitive UI/UX design
-RESTful API development and integration
-Server-side scripting and optimization
-Database design and management
+- **Animated Hero Section** — Decrypted text animation & motion transitions
+- **About Me** — Overview of my background and passion for web development
+- **Technologies** — Animated, bouncing tech stack icons (MongoDB, Express, React, Node.js, Redux, Next.js)
+- **Experience Timeline** — Professional experience at NDVTechsys, ModelSuite AI, and Harsar Infonics
+- **Projects Showcase** — Featured projects with descriptions, tech stacks, and live links
+- **Contact Section** — Easy access to email, phone, and address
+- **Blob Cursor Animation** — Custom interactive cursor effect
+- **Fully Responsive** — Optimized for all screen sizes
+- **Dark Theme** — Elegant neutral/purple gradient background
 
-Passion for Learning:
+---
 
-In the fast-evolving world of technology, I am committed to continuous learning. Staying updated with the latest trends and adopting new tools and methodologies is crucial for delivering solutions that stand out in today's competitive landscape.
+## �️ Tech Stack
+
+| Category       | Technologies                |
+| -------------- | --------------------------- |
+| **Framework**  | React 18, Vite              |
+| **Styling**    | Tailwind CSS, Sass, PostCSS |
+| **Animations** | Framer Motion, React Spring |
+| **Icons**      | React Icons                 |
+| **Linting**    | ESLint                      |
+| **Language**   | JavaScript (JSX)            |
+
+---
+
+## 📁 Project Structure
+
+```
+├── public/                  # Static assets
+├── src/
+│   ├── assets/              # Images & media
+│   │   └── projects/        # Project screenshots & videos
+│   ├── components/
+│   │   ├── Navbar.jsx       # Navigation bar
+│   │   ├── Hero.jsx         # Hero section with animated intro
+│   │   ├── About.jsx        # About me section
+│   │   ├── Technologies.jsx # Animated tech icons
+│   │   ├── Experience.jsx   # Work experience timeline
+│   │   ├── Projects.jsx     # Featured projects grid
+│   │   ├── Contact.jsx      # Contact information
+│   │   ├── Home.jsx         # Main layout wrapper
+│   │   ├── Animations/
+│   │   │   └── BlobCursor.jsx  # Custom blob cursor effect
+│   │   └── TextAnimation/
+│   │       └── Decrypt.jsx     # Decrypted text animation
+│   ├── constants/
+│   │   └── index.js         # All content data (experiences, projects, contact)
+│   ├── App.jsx              # Root component
+│   ├── main.jsx             # Entry point
+│   └── index.css            # Global styles
+├── index.html
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18+)
+- **npm** or **yarn**
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Karan-Singh-Bisht/Portfolio.git
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The app will be running at `http://localhost:5173`.
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+---
+
+## 🖥️ Featured Projects
+
+| Project                                                         | Description                                                                   | Tech Stack                                          |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------- |
+| **[Uber Clone](https://quickryde.netlify.app/)**                | Full-featured ride-hailing platform with real-time tracking                   | React, Express, MongoDB, Socket.io, Google Maps API |
+| **[Verify](https://verify-v1.netlify.app/)**                    | AI-powered blockchain-backed document authentication (ISRO Hackathon — Top 5) | React, TypeScript, Redux, Blockchain, AI            |
+| **[QuickBazaar](https://bucolic-rugelach-8be688.netlify.app/)** | Cloud-native microservices e-commerce platform                                | React, Node.js, MongoDB, Kubernetes, Docker, Helm   |
+| **[Movie Mania](https://movie-mania-lac.vercel.app/)**          | Streaming discovery website for films & TV shows                              | React, Redux Toolkit, CSS                           |
+
+---
+
+## 💼 Experience
+
+- **Software Engineer** @ NDVTechsys _(Jan 2026 – Present)_
+- **Software Engineer** @ ModelSuite AI _(Jul 2025 – Dec 2025)_
+- **Full Stack Developer Intern** @ Harsar Infonics _(Apr 2025 – Jul 2025)_
+
+---
+
+## 📬 Contact
+
+- 📧 **Email:** [karansbisht7@gmail.com](mailto:karansbisht7@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/karansinghbisht1108](https://www.linkedin.com/in/karansinghbisht1108/)
+- 🐙 **GitHub:** [github.com/Karan-Singh-Bisht](https://github.com/Karan-Singh-Bisht)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).

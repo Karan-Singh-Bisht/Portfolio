@@ -1,20 +1,20 @@
 # 🚀 Karan Singh Bisht## 🛠️ Tech Stack
 
-| Category              | Technologies                                                               |
-| --------------------- | -------------------------------------------------------------------------- |
-| **Languages**         | JavaScript, TypeScript, HTML5, CSS3                                        |
-| **Frontend**          | React, Redux Toolkit, Tailwind CSS, shadcn/ui, Framer Motion, Sass        |
-| **Backend**           | Node.js, Express.js, Socket.IO, BullMQ                                    |
-| **Databases**         | MongoDB, Redis                                                             |
-| **DevOps & Cloud**    | Docker, Docker Compose, Kubernetes, Helm, NGINX, AWS EC2, AWS S3, GCP     |
-| **AI & Blockchain**   | Google Gemini API, Blockchain, AI-powered Workflows                        |
-| **Auth & Security**   | JWT, Cookies, Role-Based Access Control                                    |
-| **Tools**             | Git, GitHub, Vite, ESLint, PostCSS                                         |
-| **Portfolio Built With** | React 18, Vite, Tailwind CSS, Framer Motion, React Spring, React Icons |io
+| Category                 | Technologies                                                           |
+| ------------------------ | ---------------------------------------------------------------------- | --- |
+| **Languages**            | JavaScript, TypeScript, HTML5, CSS3                                    |
+| **Frontend**             | React, Redux Toolkit, Tailwind CSS, shadcn/ui, Framer Motion, Sass     |
+| **Backend**              | Node.js, Express.js, Socket.IO, BullMQ                                 |
+| **Databases**            | MongoDB, Redis                                                         |
+| **DevOps & Cloud**       | Docker, Docker Compose, Kubernetes, Helm, NGINX, AWS EC2, AWS S3, GCP  |
+| **AI & Blockchain**      | Google Gemini API, Blockchain, AI-powered Workflows                    |
+| **Auth & Security**      | JWT, Cookies, Role-Based Access Control                                |
+| **Tools**                | Git, GitHub, Vite, ESLint, PostCSS                                     |
+| **Portfolio Built With** | React 18, Vite, Tailwind CSS, Framer Motion, React Spring, React Icons | io  |
 
 A modern, animated personal portfolio website built with **React**, **Tailwind CSS**, and **Framer Motion**. Showcases my projects, experience, skills, and contact information with smooth animations and a sleek dark-themed UI.
 
-🔗 **Live Demo:** [karansinghbisht.netlify.app](https://karansinghbisht.netlify.app) _(update with your actual URL)_
+🔗 **Live Demo:** [karansinghbisht.netlify.app](https://karansinghbisht.vercel.app)
 
 ---
 
@@ -34,14 +34,14 @@ A modern, animated personal portfolio website built with **React**, **Tailwind C
 
 ## �️ Tech Stack
 
-| Category       | Technologies                |
-| -------------- | --------------------------- |
-| **Framework**  | React 18, Vite              |
-| **Styling**    | Tailwind CSS, Sass, PostCSS |
-| **Animations** | Framer Motion, React Spring |
-| **Icons**      | React Icons                 |
-| **Linting**    | ESLint                      |
-| **Language**   | JavaScript (JSX)            |
+| Category       | Technologies     |
+| -------------- | ---------------- |
+| **Framework**  | React 18, Vite   |
+| **Styling**    | Tailwind CSS,    |
+| **Animations** | Framer Motion    |
+| **Icons**      | React Icons      |
+| **Linting**    | ESLint           |
+| **Language**   | JavaScript (JSX) |
 
 ---
 
